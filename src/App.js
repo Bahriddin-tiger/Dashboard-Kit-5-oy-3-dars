@@ -31,7 +31,7 @@ function App() {
 			<>
 				<div className='sitebox'>
 					<div className='sitebar'>
-						<a className='sitebarlink' href='./index.html'>
+						<a className='sitebarlink' href='../public/index.html'>
 							<img src={Logo} className='logo-img' />
 							<p className='logo-text'>Dashboard Kit</p>
 						</a>
@@ -115,7 +115,9 @@ function App() {
 											<span className='left-span'>Group:</span> Support
 										</p>
 									</div>
-									<a className='left-link'>View details</a>
+									<a href='../public/index.html' className='left-link'>
+										View details
+									</a>
 								</div>
 								<div className='lefy-List'>
 									<ListLeft>
@@ -135,7 +137,9 @@ function App() {
 											<span className='left-span'>Today</span>
 										</p>
 									</div>
-									<a className='left-link'>View all</a>
+									<a href='../public/index.html' className='left-link'>
+										View all
+									</a>
 								</div>
 								<div className='crate'>
 									<p className='crate-text'>Create new task</p>
