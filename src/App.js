@@ -32,7 +32,7 @@ function App() {
 				<div className='sitebox'>
 					<div className='sitebar'>
 						<a className='sitebarlink' href='../public/index.html'>
-							<img src={Logo} className='logo-img' />
+							<img alt='logoimg' src={Logo} className='logo-img' />
 							<p className='logo-text'>Dashboard Kit</p>
 						</a>
 						<div className='logo-box'>
@@ -51,17 +51,29 @@ function App() {
 					<div>
 						<header className='site-header'>
 							<a className='header-logo-link'>
-								<img className='header-logo-img' src={Title} />
+								<img
+									alt='header logo-img'
+									className='header-logo-img'
+									src={Title}
+								/>
 							</a>
 
 							<div className='header-icon-box'>
-								<img src={Search} className='header-icon-img' />
-								<img src={Qongiroq} className='header-icon-img' />
+								<img
+									alt='header-logo'
+									src={Search}
+									className='header-icon-img'
+								/>
+								<img
+									alt='header-logo'
+									src={Qongiroq}
+									className='header-icon-img'
+								/>
 							</div>
 
 							<div className='header-man-box'>
 								<p className='header-man-name'>Jones Ferdinand</p>
-								<img className='header-man-img' src={Brat} />
+								<img alt='brat' className='header-man-img' src={Brat} />
 							</div>
 						</header>
 
@@ -81,11 +93,19 @@ function App() {
 									<div className='main-text-box'>
 										<p className='main-data'>as of 25 May 2019, 09:41 PM</p>
 										<p className='main-todey-text'>
-											<img className='main-big-line' src={LineBlou} />
+											<img
+												alt='line'
+												className='main-big-line'
+												src={LineBlou}
+											/>
 											Today
 										</p>
 										<p className='main-todey-text'>
-											<img className='main-big-line' src={LineWhite} />
+											<img
+												alt='line'
+												className='main-big-line'
+												src={LineWhite}
+											/>
 											Yesterday
 										</p>
 									</div>
@@ -143,7 +163,7 @@ function App() {
 								</div>
 								<div className='crate'>
 									<p className='crate-text'>Create new task</p>
-									<img src={Plus} />
+									<img alt='Plus' src={Plus} />
 								</div>
 								<div className='lefy-List'>
 									<ListLeft>
