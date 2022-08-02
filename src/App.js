@@ -50,7 +50,7 @@ function App() {
 					</div>
 					<div>
 						<header className='site-header'>
-							<a className='header-logo-link'>
+							<a href='../public/index.html' className='header-logo-link'>
 								<img
 									alt='header logo-img'
 									className='header-logo-img'
