@@ -1,0 +1,52 @@
+.itemR{
+    margin: 0;
+    padding: 19px 0;
+
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #DFE0EB;
+}
+
+.ItemInput{
+    margin-right: 16px;
+    border-radius: 50%;
+    border: 2px solid #C5C7CD;
+}
+
+.ItemRText{
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+
+.ItemButton{
+    padding: 5px 12px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FEC400;
+    border-radius: 8px;
+    border: none;
+}
+
+.itemR:nth-child(2) > .ItemButton{
+    background-color: #29CC97;
+}
+
+.itemR:nth-child(3) > .ItemButton{
+    background-color: #F0F1F7;
+}
+
+.itemR:nth-child(3) > .ItemButton{
+    color: #9FA2B4;
+}
